@@ -9,4 +9,9 @@ router.use("/siswa", siswaRouter);
 // router.use("/guru", guruRouter);
 // router.use("/kelas", kelasRouter);
 
+// Output Umum
+router.get("/", (req, res) => {
+  res.send("Welcome To Coding Lab API");
+});
+
 module.exports = router;

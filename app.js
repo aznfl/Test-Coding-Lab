@@ -18,7 +18,7 @@ db.then(() => {
 
 // Set Server Port
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server Running at Port: ${PORT}`));
+app.listen(PORT, () => console.log(`Server Running on http://localhost:${PORT}`));
 
 // Set Body Parser
 app.use(bodyParser.json());
@@ -30,11 +30,6 @@ app.use(allRoutes);
 
 process.on("unhandledRejection", (error) => {
   console.log("unhandledRejection", error.message);
-});
-
-// Output Umum
-app.get("/", (req, res) => {
-  res.send("Welcome To Coding Lab API");
 });
 
 // Function Genap (Soal Nomor 1)
