@@ -41,8 +41,19 @@ const kecepatan = 100
 rumus(waktu, kecepatan)
 ```
 
+## Soal.9 - Jelaskan tentang SCRUM (Agile Development) dan Waterfall (Sofware Development Life Cycle)
+> - **SCRUM** ialah 
+> - **Waterfall** ialah susunan rencana development dalam membuat sebuah project, dimana rencana tersebut di susun sesuai dengan tahap-tahapan dan juga secara terurut. Dan waterfall diambil dengan simbol air terjun, dimana air tersebut jatuh dari atas ke bawah, maka rencana yang di susun dengan waterfall harus berurutan tahapan pengerjaannya.
+
 ## Soal.10 - Jelaskan apa yang kamu ketahui tentang framework
 > Menurut saya framework adalah sebuah tools yang lengkap yang mempermudah seorang developver dalam membuat sebuah project, dimana tools tersebut sudah tersusun rapi dan seorang developver tinggal menggunakan tools tersebut
 
 ## URL for published documentation
-Link => https://documenter.getpostman.com/view/24324521/2s8ZDYXhNs
+> Link => https://documenter.getpostman.com/view/24324521/2s8ZDYXhNs
+
+## LINK API 
+> test-coding-lab-production.up.railway.app
+> 
+> 1. API - Siswa
+> Method : Get
+> Link   : test-coding-lab-production.up.railway.app/siswa
