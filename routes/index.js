@@ -6,7 +6,7 @@ const siswaRouter = require("./siswa.router");
 // const kelasRouter = require("./kelas.router");
 
 // Output Umum
-router.get((res) => {  res.status(200).json({
+router.get("/", (res) => {  res.status(200).json({
         message: "Update Success",
         data: new_siswa,
       })})

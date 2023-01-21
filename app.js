@@ -25,7 +25,6 @@ app.listen(PORT, () => console.log(`Server Running at Port: ${PORT}`));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-
 // Set Routes
 const allRoutes = require("./routes");
 app.use(allRoutes)
