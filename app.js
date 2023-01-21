@@ -33,7 +33,28 @@ process.on("unhandledRejection", (error) => {
   console.log("unhandledRejection", error.message);
 });
 
-// Menghitung Kecepatan
+
+// Function Genap (Soal Nomor 1)
+// const genap = (a) => {
+//   if (a % 2 == 0) {
+//     return console.log(a, "Ini Bilangan Genap");
+//   }
+// };
+
+// Function Ganjil (Soal Nomor 1)
+// const ganjil = (a) => {
+//   if (a % 2 == 1) return console.log(a, "Ini Bilangan Ganjil");
+// };
+
+// Urutan 1-100 Genap (Soal Nomor 2)
+// const bilangan = () => {
+// for (a=1; a<=100; a++){
+// genap(a)
+// }
+// };
+// bilangan()
+
+// Menghitung Kecepatan (Soal Nomor 3)
 // const rumus = (a = 0,b = 0) => {
 //     var t = a / 60
 //     var v = b

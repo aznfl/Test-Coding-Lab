@@ -4,7 +4,7 @@
 
 // router.get("/", siswaController.getAllSiswa);
 
-// // router.get("/:id", siswaController.getAllsiswaById);
+// router.get("/:id", siswaController.getAllsiswaById);
 
 // router.post("/", siswaController.createSiswa);
 
