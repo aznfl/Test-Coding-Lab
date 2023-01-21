@@ -41,5 +41,8 @@ const kecepatan = 100
 rumus(waktu, kecepatan)
 ```
 
+## Soal.10 - Jelaskan apa yang kamu ketahui tentang framework
+> Menurut saya framework adalah sebuah tools yang lengkap yang mempermudah seorang developver dalam membuat sebuah project, dimana tools tersebut sudah tersusun rapi dan seorang developver tinggal menggunakan tools tersebut
+
 ## URL for published documentation
 Link => https://documenter.getpostman.com/view/24324521/2s8ZDYXhNs
