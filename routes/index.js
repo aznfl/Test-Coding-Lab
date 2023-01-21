@@ -6,7 +6,7 @@ const siswaRouter = require("./siswa.router");
 // const kelasRouter = require("./kelas.router");
 
 // Output Umum
-router.get("/", console.log("Welcome To API Test-CodingLab"))
+router.get(console.log("Welcome To API Test-CodingLab"))
 
 router.use("/siswa", siswaRouter);
 // router.use("/guru", guruRouter);
