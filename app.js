@@ -33,7 +33,7 @@ process.on("unhandledRejection", (error) => {
 });
 
 // Output Umum
-app.get("/", (res) => {
+app.get("/", (req, res) => {
   res.send("Welcome To Coding Lab API");
 });
 
